@@ -1,0 +1,24 @@
+<svg width="190" height="66" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <defs>
+  <filter id="svg_1_blur">
+   <feGaussianBlur stdDeviation="0.9" in="SourceGraphic"/>
+  </filter>
+  <filter height="200%" width="200%" y="-50%" x="-50%" id="svg_3_blur">
+   <feGaussianBlur stdDeviation="3.4" in="SourceGraphic"/>
+  </filter>
+  <filter id="svg_4_blur">
+   <feGaussianBlur stdDeviation="2.9" in="SourceGraphic"/>
+  </filter>
+ </defs>
+ <g>
+  <title>background</title>
+  <rect fill="#fff" id="canvas_background" height="68" width="192" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <text filter="url(#svg_1_blur)" font-weight="bold" opacity="0.6" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="43" id="svg_1" y="48.5" x="13.5" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#006cd8">E W A Z</text>
+  <rect filter="url(#svg_3_blur)" rx="66" opacity="0.45" stroke="#000" id="svg_3" height="16" width="195.000007" y="54" x="-3.500007" stroke-opacity="null" stroke-width="0" fill="#006cd8"/>
+  <ellipse filter="url(#svg_4_blur)" opacity="0.45" stroke="#000" ry="7.5" rx="94" id="svg_4" cy="8" cx="98.5" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#006cd8"/>
+ </g>
+</svg>
