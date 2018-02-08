@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura>
+	<cliente>
+		<nombre>Mario Flores</nombre>
+		<telefono>55715</telefono>
+	</cliente>
+	<articulo id="1">
+		<descripcion>Cuaderno</descripcion>
+		<precio-unitario>5</precio-unitario>
+		<precio-final>5</precio-final>
+		<cantidad>1</cantidad>
+	</articulos>
+	<articulo id="2">corbata</descripcion>
+		<precio-unitario>15</precio-unitario>
+		<precio-final>15</precio-final>
+		<cantidad>2</cantidad>
+	</articulos>
+	<precio-total>35</precio-total>
+</factura>	

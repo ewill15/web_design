@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Registro de Tienda</title>
+</head>
+
+<body>
+    <h1>Regisro en nuestra tienda</h1>
+    <form>
+        <p>
+            <label for="nombre">Nombre de usuario</label>
+            <input type="text" name="nombre" placeholder="Ej:Luis">
+        </p>
+        <p>
+            <label for="email">Email</label>
+            <input type="text" name="email" placeholder="Ej:luis@gmail.com">
+        </p>
+        <p>
+            <label for="edad">Edad</label>
+            <input type="text" name="edad" placeholder="Ej:21">
+        </p>
+        <p>
+            <label for="genre">G&eacute;nero: </label>
+			<br>
+			<input type="radio" name="genre"> Masculino
+			<br>
+			<input type="radio" name="genre"> Femenino
+        </p>
+        <p>
+            <label for="recomendado">Recomendado por</label>
+            <select name="recomendado">
+                <option value="Google">Google</option>
+                <option value="Amigo">Amigo</option>
+                <option value="Redes Sociales">Redes Sociales</option>
+            </select>
+        </p>
+        <p>
+            <label for="comentario">Comentarios</label>
+            <textarea name="comentario" cols="30" rows="10"></textarea>
+        </p>
+        <p>
+            <label for="terminos">Acepto terminos y condiciones</label>
+            <input type="checkbox" id="terminos" name="terminos">
+            <br>
+        </p>
+        <p>
+            <input type="submit" value="Enviar" name="terminos">
+        </p>
+    </form>
+</body>
+
+</html>

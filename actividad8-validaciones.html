@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Validaciones</title>
+</head>
+
+<body>
+    <h1>Regisro en nuestra tienda</h1>
+    <form>
+        <p>
+            <label for="nombre">Nombre de usuario</label><br>
+            <input type="text" name="nombre" placeholder="Ej:Luis" autofocus required>
+        </p>
+        <p>
+            <label for="email">Email</label><br>
+            <input type="text" name="email" placeholder="Ej:luis@gmail.com" required>
+        </p>
+        <p>
+            <label for="edad">Edad</label><br>
+            <input type="number" name="edad" max=120 required>
+            <br>
+            <br>
+            <label for="fechaNac">Fecha Nacimiento</label><br>
+            <input type="date" name="fechaNac" id="fechaNac">
+        </p>
+        <p>
+            <label for="genre">G&eacute;nero: </label>
+            <br>
+            <input type="radio" name="genre"> Masculino
+            <br>
+            <input type="radio" name="genre"> Femenino
+        </p>
+        <p>
+            <label for="recomendado">Recomendado por</label><br>
+            <select name="recomendado">
+                <option value="Google">Google</option>
+                <option value="Amigo">Amigo</option>
+                <option value="Redes Sociales">Redes Sociales</option>
+            </select>
+        </p>
+        <p>
+            <label for="comentario">Comentarios</label><br>
+            <textarea name="comentario" cols="30" rows="10"></textarea>
+        </p>
+        <p>
+            <label for="terminos">Acepto terminos y condiciones</label>
+            <input type="checkbox" id="terminos" name="terminos">
+            <br>
+        </p>
+        <p>
+            <input type="submit" value="Enviar" name="terminos">
+        </p>
+    </form>
+</body>
+
+</html>

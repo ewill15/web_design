@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura>
+	<cliente>
+		<nombre>Mario Flores</nombre>
+		<telefono>55715</telefono>
+	</cliente>
+	<articulos>
+		<descripcion>Anotacion de tareas varias</descripcion>
+		<precio-unitario>5</precio-unitario>
+		<precio-final>5</precio-final>
+		<cantidad>1</cantidad>
+	</articulos>
+	<precio-total>5</precio-total>
+</factura>	
