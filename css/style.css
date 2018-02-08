@@ -14,9 +14,19 @@ svg {
     height: 70px;
 }
 
-#nombre,
-#apellido,
-#nacimiento,
-#lugar {
+.nombre,
+.apellido,
+.nacimiento,
+.lugar {
     margin: 0
+}
+
+form input#institucion{
+	width: 220px;
+    height: 20px;
+}
+
+form select#anio{
+	width: auto;
+	height: 30px;
 }
