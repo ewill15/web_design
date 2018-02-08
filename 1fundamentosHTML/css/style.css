@@ -1,0 +1,32 @@
+h2 {
+    margin-bottom: 0.5%;
+    height: 1%;
+}
+
+h3 {
+    margin-top: 0;
+    margin-left: 1.5%;
+    width: 75%;
+    font-weight: normal;
+}
+
+svg {
+    height: 70px;
+}
+
+.nombre,
+.apellido,
+.nacimiento,
+.lugar {
+    margin: 0
+}
+
+form input#institucion{
+	width: 220px;
+    height: 20px;
+}
+
+form select#anio{
+	width: auto;
+	height: 30px;
+}
