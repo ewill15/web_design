@@ -10,16 +10,16 @@ function colorBlink(selector) {
 			},
 			queue: true
 		}, 6000)
-		.delay(500)
+		.delay(1500)
 		.animate({
 			opacity: '1'
 		}, {
 			step: function () {
-				$(this).css('color', '#E87306');
+				$(this).css('color', '#E87386');
 			},
 			queue: true
 		})
-		.delay(500)
+		.delay(1500)
 		.animate({
 			opacity: '1'
 		}, {
