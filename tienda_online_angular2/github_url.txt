@@ -1,1 +1,4 @@
-https://github.com/dimofra9/tiendaOnlineAngular2
+https://github.com/ewill15/web_design/tree/master/tienda_online_angular2
+
+usuario: usertienda@nextu.com
+password: C1@ve*ser
