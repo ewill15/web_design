@@ -1,0 +1,50 @@
+.navbar {
+	background-color: #dddddd;
+	border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    font-family: serif, sans-serif;
+	height: 40px;	
+    margin: 0 auto;
+    width: 80%;
+}
+
+.title {
+	float: left;
+	margin: 8px;
+}
+
+ul {
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+
+.menu li {
+	float: left;
+}
+
+a {
+    display: block;
+    padding: 8px;
+}
+
+.numProd {
+    background-color: red;
+    color: white;
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    height: 12px;
+    padding: 3px; 
+    position: absolute;
+    text-align: center;
+    top: 20px;
+    width: 12px;
+	
+	-webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    -ms-border-radius: 9px;
+    -o-border-radius: 9px;    
+}

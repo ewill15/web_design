@@ -1,0 +1,124 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#carrito {
+	background-color: #dddddd;
+	border-radius: 3px;
+	font-family: 'Josefin Sans', sans-serif;
+	height: 590px;
+	margin: 10px auto;
+	width: 80%;
+}
+
+.cabecera {
+	border-bottom: 1px solid grey;
+	height: 60px;
+	margin: 0 auto;
+	padding: 5px;
+	width: 95%;
+}
+
+.detallecarrito {
+	height: 500px;
+	margin: 0 auto;
+	padding: 5px;
+	overflow-y: scroll;
+	width: 95%;
+}
+
+.lista {
+	width: 60%;
+	height: 100%;
+	float: left;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+li {	
+	border: solid 1px gray;
+	border-radius: 4px;
+	height: 100px;
+	margin-bottom: 5px;
+	-webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+li .itemdata {
+	height: 75px;
+}
+
+.isq {
+	float: left;
+	height: 100%;
+	width: 30%;
+}
+
+.isq img{
+	border: solid 1px gray;
+    padding: 2px;
+	height: 70px;
+	width: 100%;
+}
+
+.der {
+	float: right;
+	height: 100%;
+	width: 65%;
+}
+
+li .subtotal {
+	margin-top: 3px;
+	height: 20px;
+}
+
+.total {
+	float: right;
+	height: 100%;
+	width: 38%;
+}
+
+.boton {
+	background-color: gray;
+	border: solid 1px gray;
+	border-radius: 4px;
+	color: black;
+	display: block;
+	float: left;
+	font-size: 0.8em;
+	font-weight: bold;
+	height: 18px;
+	margin: 12px 2.5%;
+	padding: 5px;
+	text-align: center;
+	text-decoration: none;
+	width: 50px;
+	-webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.progressBar img {
+  width: 120px;
+  margin: 10px auto;
+}
+
+.alertaUp {
+  background:#FFBABA; 
+  border:solid 1px red;
+  border-radius: 5px; 
+  color:#D8000C;
+  font-family: 'Kaushan Script', cursive; 
+  padding:8px;
+  text-align:center;
+  vertical-align:middle;
+}
