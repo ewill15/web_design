@@ -3,7 +3,7 @@
  */
 var Usuario = require('./usuarioModel.js');
 module.exports.insertarUsuario = function (callback) {
-	let User1 = new Usuario({nombre: "Nombre de usuario 1", email: 'usertienda@nextu.com', password:'C1@veUser'});
+	let User1 = new Usuario({nombre: "Nombre de usuario A", email: 'usertienda@nextu.com', password:'C1@veUser'});
 	
 	User1.save((error) => {
 		if(error) callback(error);
